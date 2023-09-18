@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+}
+.akun{
+    background-color: rgb(48, 48, 197);
+    color: yellow;
+}
+.hobby{
+    background-color: lightslategrey;
+    color: yellow;
+}
+.nama2 {
+    background-color: lightslategrey;
+}
+.bola{
+    background-color: rgb(61, 142, 142);
+    color: yellow;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.nama{
+    background-color:rgb(48, 48, 197)
+}
+.nama3{
+    background-color: rgb(61, 142, 142);
+ 
+}
+body{
+    background: linear-gradient(to right, rgba(57, 106, 252, 0.5), rgba(41, 72, 255, 0.2)),   url(3625936.jpg);
+}
+
+.ukuran{
+    width: 170px;
+}
+
+
