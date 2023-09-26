@@ -1,0 +1,17 @@
+.container{
+    background-color: rgb(127, 234, 255);
+    border-radius: 3px;
+    padding: 15%;
+    margin: 5%;
+    background: linear-gradient(to right, rgba(123, 142, 201, 0.5), rgba(41, 72, 255, 0.2)),   url(cara-menghitung-hpp.jpg);
+    background-size: 100%;
+}
+body{
+    background-color: rgb(98, 80, 39);
+}
+.container2{
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}

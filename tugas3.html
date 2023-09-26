@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS INDIVIDU 3 KALKULATOR</title>
+    <link rel="stylesheet" href="tugas3.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    
+    <div class="container">
+    <form name="kalkulator">
+        <center>
+        
+        <label for="nama"><b>Bilangan Pertama :</b></label> <br> <br>
+        <input type="number" id="nama" name="bil1" placeholder="Masukkan angka pertama.." class="container2"> <br> <br> <br>
+        
+
+        
+        <label for="password"><b>Bilangan Kedua :</b></label> <br> <br>
+        <input type="number" id="password" name="bil2" placeholder="Masukkan angka kedua.." class="container2"><br> <br>
+        
+
+        
+        <button type="submit" onclick="hitung('+')">+</button>
+        <button type="submit" onclick="hitung('-')">-</button>
+        <button type="submit" onclick="hitung('*')">*</button>
+        <button type="submit" onclick="hitung('/')">/</button>
+       
+       </center>
+    </form>
+    </div>
+   
+    <script>
+        function hitung(operator) {
+            let a = document.kalkulator.bil1.value;
+            let b = document.kalkulator.bil2.value;
+            let hasil;
+
+            if (operator === '+'){
+                hasil = +a + +b; // Gunakan operator + untuk konversi otomatis ke angka
+            }   else if (operator === '-'){
+                hasil = +a - +b;
+            }   else if (operator === '*'){
+                hasil = +a * +b;
+            }   else if (operator === '/'){
+                hasil = +a / +b;
+            }
+
+            alert(a +" "+ operator +" "+ b + "=" + hasil);
+        }
+    </script>
+</body>
+</html>
